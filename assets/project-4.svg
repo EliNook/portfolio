@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="轻记账小程序界面插画">
+  <defs>
+    <linearGradient id="m1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17b3a3"/>
+      <stop offset="1" stop-color="#0c8f83"/>
+    </linearGradient>
+    <linearGradient id="m2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff9357"/>
+      <stop offset="1" stop-color="#d9480f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="#f2f8f4"/>
+  <circle cx="710" cy="80" r="130" fill="#d9eee2" opacity=".6"/>
+  <circle cx="70" cy="440" r="100" fill="#d9eee2" opacity=".5"/>
+
+  <!-- 手机机身 -->
+  <rect x="310" y="46" width="180" height="408" rx="28" fill="#ffffff" stroke="#d3e3d8"/>
+  <rect x="370" y="58" width="60" height="8" rx="4" fill="#e8f1ea"/>
+
+  <!-- 余额卡片 -->
+  <rect x="326" y="84" width="148" height="64" rx="12" fill="url(#m1)"/>
+  <rect x="340" y="98" width="56" height="8" rx="4" fill="#ffffff" opacity=".85"/>
+  <rect x="340" y="116" width="92" height="12" rx="6" fill="#ffffff"/>
+
+  <!-- 快捷入口 -->
+  <circle cx="352" cy="176" r="14" fill="#e3f4ef"/>
+  <circle cx="400" cy="176" r="14" fill="#e3f4ef"/>
+  <circle cx="448" cy="176" r="14" fill="#ffedd f"/>
+  <circle cx="448" cy="176" r="14" fill="#ffeddf"/>
+  <rect x="342" y="196" width="20" height="6" rx="3" fill="#cfe4da"/>
+  <rect x="390" y="196" width="20" height="6" rx="3" fill="#cfe4da"/>
+  <rect x="438" y="196" width="20" height="6" rx="3" fill="#cfe4da"/>
+
+  <!-- 月度统计柱状图 -->
+  <rect x="326" y="218" width="148" height="112" rx="12" fill="#f6faf7" stroke="#e2ede6"/>
+  <g fill="#9fd8cd">
+    <rect x="344" y="284" width="12" height="30" rx="3"/>
+    <rect x="366" y="268" width="12" height="46" rx="3"/>
+    <rect x="388" y="292" width="12" height="22" rx="3"/>
+    <rect x="410" y="276" width="12" height="38" rx="3"/>
+  </g>
+  <rect x="432" y="258" width="12" height="56" rx="3" fill="#17b3a3"/>
+  <rect x="344" y="234" width="70" height="8" rx="4" fill="#cfe4da"/>
+
+  <!-- 流水列表 -->
+  <circle cx="348" cy="360" r="11" fill="#d9eee2"/>
+  <rect x="368" y="352" width="70" height="8" rx="4" fill="#cfe4da"/>
+  <rect x="440" y="352" width="30" height="9" rx="4.5" fill="#ff9357"/>
+  <circle cx="348" cy="392" r="11" fill="#d9eee2"/>
+  <rect x="368" y="384" width="58" height="8" rx="4" fill="#cfe4da"/>
+  <rect x="434" y="384" width="36" height="9" rx="4.5" fill="#17b3a3"/>
+
+  <!-- 语音记账按钮 -->
+  <circle cx="400" cy="428" r="16" fill="url(#m2)"/>
+  <rect x="395" y="418" width="10" height="14" rx="5" fill="#ffffff"/>
+  <path d="M390 428a10 10 0 0 0 20 0" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 左侧卡片：预算环形图 -->
+  <rect x="110" y="140" width="150" height="96" rx="14" fill="#ffffff" stroke="#d3e3d8"/>
+  <circle cx="150" cy="188" r="24" fill="none" stroke="#e3f4ef" stroke-width="8"/>
+  <circle cx="150" cy="188" r="24" fill="none" stroke="#17b3a3" stroke-width="8" stroke-linecap="round" stroke-dasharray="105 151" transform="rotate(-90 150 188)"/>
+  <rect x="192" y="168" width="52" height="9" rx="4.5" fill="#cfe4da"/>
+  <rect x="192" y="188" width="40" height="8" rx="4" fill="#e0ede6"/>
+  <rect x="192" y="206" width="46" height="8" rx="4" fill="#e0ede6"/>
+
+  <!-- 右侧卡片：趋势折线 -->
+  <rect x="540" y="250" width="160" height="100" rx="14" fill="#ffffff" stroke="#d3e3d8"/>
+  <rect x="556" y="266" width="56" height="8" rx="4" fill="#cfe4da"/>
+  <path d="M556 330l24-16 20 8 26-22 22 10 28-26 28 12" fill="none" stroke="#ff9357" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="704" cy="284" r="4" fill="#ff9357"/>
+
+  <!-- 金币点缀 -->
+  <circle cx="250" cy="90" r="14" fill="#f6c667"/>
+  <circle cx="250" cy="90" r="8" fill="none" stroke="#e0a93f" stroke-width="2"/>
+  <circle cx="560" cy="140" r="10" fill="#f6c667"/>
+  <circle cx="560" cy="140" r="5" fill="none" stroke="#e0a93f" stroke-width="2"/>
+  <path d="M700 400l5 12 12 5-12 5-5 12-5-12-12-5 12-5z" fill="#a8d8c4"/>
+</svg>

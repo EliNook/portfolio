@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="城市数据可视化大屏插画">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#35b6ff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#35b6ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="#0d1420"/>
+
+  <!-- 网格背景 -->
+  <g stroke="#16233a" stroke-width="1">
+    <line x1="0" y1="125" x2="800" y2="125"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+    <line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+  </g>
+
+  <!-- 顶部标题栏 -->
+  <rect x="48" y="40" width="220" height="12" rx="6" fill="#22334f"/>
+  <rect x="640" y="34" width="112" height="22" rx="11" fill="none" stroke="#2c4468"/>
+  <rect x="656" y="42" width="80" height="6" rx="3" fill="#2c4468"/>
+
+  <!-- 面积折线图 -->
+  <path d="M48 320 L148 280 L248 300 L348 230 L448 258 L548 190 L648 214 L752 150 L752 400 L48 400 Z" fill="url(#g3)"/>
+  <path d="M48 320 L148 280 L248 300 L348 230 L448 258 L548 190 L648 214 L752 150" fill="none" stroke="#4dd6ff" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#4dd6ff">
+    <circle cx="148" cy="280" r="5"/>
+    <circle cx="348" cy="230" r="5"/>
+    <circle cx="548" cy="190" r="5"/>
+    <circle cx="752" cy="150" r="5"/>
+  </g>
+
+  <!-- 柱状图 -->
+  <g fill="#2f6fce" opacity=".85">
+    <rect x="60" y="430" width="22" height="34" rx="3"/>
+    <rect x="96" y="414" width="22" height="50" rx="3"/>
+    <rect x="132" y="438" width="22" height="26" rx="3"/>
+    <rect x="168" y="404" width="22" height="60" rx="3"/>
+    <rect x="204" y="424" width="22" height="40" rx="3"/>
+  </g>
+  <rect x="240" y="392" width="22" height="72" rx="3" fill="#4dd6ff"/>
+
+  <!-- 环形指标 -->
+  <circle cx="612" cy="170" r="78" fill="none" stroke="#24405f" stroke-width="2"/>
+  <circle cx="612" cy="170" r="78" fill="none" stroke="#4dd6ff" stroke-width="5" stroke-linecap="round" stroke-dasharray="140 360" transform="rotate(-90 612 170)"/>
+  <circle cx="612" cy="170" r="46" fill="none" stroke="#1d3252" stroke-width="2"/>
+  <circle cx="612" cy="170" r="8" fill="#4dd6ff"/>
+
+  <!-- 散点粒子 -->
+  <g fill="#6ea8ff">
+    <circle cx="120" cy="120" r="3" opacity=".5"/>
+    <circle cx="260" cy="90" r="2.5" opacity=".35"/>
+    <circle cx="420" cy="140" r="3" opacity=".45"/>
+    <circle cx="500" cy="80" r="2" opacity=".3"/>
+    <circle cx="720" cy="300" r="3" opacity=".5"/>
+    <circle cx="680" cy="360" r="2.5" opacity=".35"/>
+    <circle cx="420" cy="330" r="2.5" opacity=".4"/>
+    <circle cx="330" cy="360" r="2" opacity=".3"/>
+  </g>
+
+  <!-- 角标刻度 -->
+  <g stroke="#2c4468" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M40 60v-16h16"/>
+    <path d="M744 440v16h-16"/>
+  </g>
+</svg>
