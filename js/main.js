@@ -1,4 +1,23 @@
+// 深浅色主题：初始化（脚本位于 body 末尾，立即执行以避免主题闪烁）
+const THEME_KEY = 'theme';
+const themeToggle = document.getElementById('themeToggle');
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  if (themeToggle) {
+    themeToggle.setAttribute('aria-label', theme === 'dark' ? '切换到浅色主题' : '切换到深色主题');
+  }
+}
+applyTheme(localStorage.getItem(THEME_KEY) || 'light');
+
 document.addEventListener('DOMContentLoaded', () => {
+  // 深浅色主题切换：更新主题并写入 localStorage 记住选择
+  themeToggle.addEventListener('click', () => {
+    const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    localStorage.setItem(THEME_KEY, next);
+  });
+
   // 移动端菜单开合
   const sidebar = document.getElementById('sidebar');
   const menuToggle = document.getElementById('menuToggle');
